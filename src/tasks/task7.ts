@@ -1,5 +1,11 @@
 import * as readlineSync from "readline-sync";
 
+/*
+
+  7.Даны натуральные числа x  и y.
+  Вычислить произведение x • y, используя лишь операцию сложения .
+
+*/
 export const multiplyUsingAddition = (x: number, y: number): number => {
   if (x < 0 || y < 0 || !Number.isInteger(x) || !Number.isInteger(y)) {
     throw new Error("Оба числа должны быть натуральными");
@@ -13,7 +19,6 @@ export const multiplyUsingAddition = (x: number, y: number): number => {
 };
 
 export const runMultiplicationTask = (): void => {
-
   const x = parseInt(
     readlineSync.question("Введите первое натуральное число (x): ")
   );

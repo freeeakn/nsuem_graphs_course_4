@@ -14,7 +14,8 @@
     "task6": "ts-node src/index.ts task6",
     "task7": "ts-node src/index.ts task7",
     "task8": "ts-node src/index.ts task8",
-    "task9": "ts-node src/index.ts task9"
+    "task9": "ts-node src/index.ts task9",
+    "task10": "ts-node src/index.ts task10"
   },
   "repository": {
     "type": "git",

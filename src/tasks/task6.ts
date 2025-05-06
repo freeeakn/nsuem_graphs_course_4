@@ -1,5 +1,13 @@
 import * as readlineSync from "readline-sync";
 
+/*
+
+  6. Определить является ли заданное шестизначное число счастливым.
+  (счастливым называют такое шестизначное число ,
+  в котором сумма первых его трех цифр равна сумме последних его трех цифр.)
+
+*/
+
 export const isLuckyNumber = (number: number): boolean => {
   if (number < 100000 || number > 999999) {
     return false;

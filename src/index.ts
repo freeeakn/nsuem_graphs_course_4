@@ -7,6 +7,7 @@ import * as task6 from "./tasks/task6";
 import * as task7 from "./tasks/task7";
 import * as task8 from "./tasks/task8";
 import * as task9 from "./tasks/task9";
+import * as task10 from "./tasks/task10";
 
 const runTask1 = () => {
   const speeds = task1.generateTestData();
@@ -61,6 +62,10 @@ function runTask9() {
   task9.runSequenceAnalysis();
 }
 
+function runTask10() {
+  task10.runFibonacciTasks();
+}
+
 const taskToRun = process.argv[2];
 
 switch (taskToRun) {
@@ -91,6 +96,9 @@ switch (taskToRun) {
   case "task9":
     runTask9();
     break;
+  case "task10":
+    runTask10();
+    break;
   default:
     runTask1();
     runTask2();
@@ -101,4 +109,5 @@ switch (taskToRun) {
     runTask7();
     runTask8();
     runTask9();
+    runTask10();
 }

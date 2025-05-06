@@ -1,3 +1,11 @@
+/*
+
+  9.Даны 20 чисел , образующих неубывающую последовательность.
+  Несколько чисел , идущих подряд равны между собой.
+  Найти количество таких чисел.
+
+*/
+
 export const countConsecutiveDuplicates = (sequence: number[]): number => {
   if (sequence.length !== 20) {
     throw new Error("Последовательность должна содержать ровно 20 элементов");
@@ -42,7 +50,7 @@ export const generateNonDecreasingSequence = (): number[] => {
   return sequence;
 };
 
-export function runSequenceAnalysis(): void {
+export const runSequenceAnalysis = (): void => {
   console.log("\n=== Задание 9: Анализ неубывающей последовательности ===");
 
   const sequence = generateNonDecreasingSequence();
@@ -80,4 +88,4 @@ export function runSequenceAnalysis(): void {
   } catch (error) {
     console.log(`Ошибка: ${error}`);
   }
-}
+};

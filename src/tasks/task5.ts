@@ -1,5 +1,12 @@
 import * as readlineSync from "readline-sync";
 
+/*
+
+  5. Даны три вещественных числа.
+  Вывести на экран те из них ,
+  которые принадлежат интервалу  [1,6;3,8].
+
+*/
 export const filterNumbersInRange = (numbers: number[]): number[] => {
   const lowerBound = 1.6;
   const upperBound = 3.8;

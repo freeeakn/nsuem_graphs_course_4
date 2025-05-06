@@ -1,5 +1,14 @@
 import * as readlineSync from "readline-sync";
 
+/*
+
+  4.Даны действительные числа a,b,c,d .
+  Если a bcd ? то каждое число заменить наибольшим из них;
+  если a > b>c >d , то числа оставить без изменения;
+  в противном случае все числа заменить их квадратами.
+
+*/
+
 export const processNumbers = (
   a: number,
   b: number,
