@@ -15,7 +15,19 @@
     "task7": "ts-node src/index.ts task7",
     "task8": "ts-node src/index.ts task8",
     "task9": "ts-node src/index.ts task9",
-    "task10": "ts-node src/index.ts task10"
+    "task10": "ts-node src/index.ts task10",
+    "task11": "ts-node src/index.ts task11",
+    "task12": "ts-node src/index.ts task12",
+    "task13": "ts-node src/index.ts task13",
+    "task14": "ts-node src/index.ts task14",
+    "task15": "ts-node src/index.ts task15",
+    "task16": "ts-node src/index.ts task16",
+    "task17": "ts-node src/index.ts task17",
+    "task18": "ts-node src/index.ts task18",
+    "task19": "ts-node src/index.ts task19",
+    "task20": "ts-node src/index.ts task20",
+    "task21": "ts-node src/index.ts task21",
+    "task22": "ts-node src/index.ts task22"
   },
   "repository": {
     "type": "git",
